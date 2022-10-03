@@ -17,7 +17,6 @@ Raleway 700 */
    --title-text-color: #212121;
    --primary-text-color: #757575;
    --accent-color: #2196F3;
-
 }
 
 a {
@@ -26,8 +25,8 @@ a {
 
 li {
    list-style-type: none;
- 
 }
+
 .logo, .logo-footer {
    font-family: 'Raleway';
    font-style: normal;
@@ -35,8 +34,8 @@ li {
    font-size: 26px;
    line-height: 1.2;
    letter-spacing: 0.03em;
-
 }
+
 .first-logo {
    color: var(--accent-color);
 }
@@ -56,12 +55,12 @@ li {
    letter-spacing: 0.02em;
 }
 
-.nav-links, .nav-link {
+.nav-link {
    color: var(--title-text-color);
 }
 
-.nav-links .nav-link:hover,
-.nav-links .nav-link:focus {
+.nav-link:hover,
+.nav-link:focus {
    color: var(--accent-color);
 }
 
@@ -85,7 +84,7 @@ h2, h3 {
    color: var(--accent-color);
 }
 
-.hero-title {
+.hero-section {
    background-color: #2F303A;
    width: 1600px;
    height: 600px;
@@ -107,12 +106,12 @@ h2, h3 {
 }
 
 .button {
-   
+   cursor: pointer;
    font-family: inherit;
    font-weight: 700;
    font-size: 16px;
    line-height: 1.9;
-   display: flex;
+   
    align-items: center;
    text-align: center;
    letter-spacing: 0.06em;
@@ -129,18 +128,10 @@ h2, h3 {
 
 .button:focus,
 .button:hover {
-   position: absolute;
-   width: 216px;
-   height: 50px;
-   left: 692px;
-   top: 430px;
    background: #188CE8;
-   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-   border-radius: 4px;
 }
 
 .features-title {
-
    font-weight: 700;
    font-size: 14px;
    line-height: 1.1;
@@ -149,27 +140,19 @@ h2, h3 {
 }
 
 .features-text {
-   font-weight: 400;
    font-size: 14px;
    line-height: 1.7;
    letter-spacing: 0.03em;
 }
 
-.our-work-section {
-   font-weight: 700;
-   font-size: 36px;
-   line-height: 42px;
-   text-align: center;
-   letter-spacing: 0.03em;
-}
-
-.team-section {
+.work-section, .team-section {
    font-weight: 700;
    font-size: 36px;
    line-height: 1.2;
    text-align: center;
    letter-spacing: 0.03em;
 }
+
 
 .text-about {
    font-weight: 500;
@@ -179,7 +162,6 @@ h2, h3 {
 }
 
 .team-text {
-   font-weight: 400;
    font-size: 16px;
    line-height: 1.2;
    letter-spacing: 0.03em;
@@ -187,7 +169,6 @@ h2, h3 {
 
 .footer-section {
    background-color: #2F303A;
-   font-weight: 400;
    font-size: 14px;
    line-height: 1.7;
    letter-spacing: 0.03em;
