@@ -55,12 +55,17 @@ body {
 
 /* Navigation */
 
-.nav-list {
-   color: var(--title-text-color);
+.header-nav {
    font-weight: 500;
    font-size: 14px;
-   line-height:1.14;
+   line-height: 1.14;
    letter-spacing: 0.02em;
+   
+}
+
+
+.nav-list {
+   color: var(--title-text-color);
 }
 
 .nav-list:hover,
@@ -75,10 +80,7 @@ body {
 
 .nav-contacts {
    color: var(--primary-text-color);
-   font-weight: 500;
-   font-size: 14px;
-   line-height: 1.14;
-   letter-spacing: 0.02em;
+   
 }
 
 .nav-contacts:hover, 
@@ -111,7 +113,6 @@ body {
    font-weight: 700;
    font-size: 16px;
    line-height: 1.87;
-   
    align-items: center;
    text-align: center;
    letter-spacing: 0.06em;
