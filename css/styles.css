@@ -14,6 +14,8 @@
    
 }
 
+/* General */
+
 a {
    text-decoration: none;
 }
@@ -21,6 +23,14 @@ a {
 li {
    list-style-type: none;
 }
+
+body {
+   font-family: 'Roboto', sans-serif;
+   color: var(--primary-text-color);
+   background-color: var(--white-color);
+}
+
+/* Logo */
 
 .logo, .logo-footer {
    font-family: 'Raleway';
@@ -43,6 +53,7 @@ li {
    color: var(--white-color);
 }
 
+/* Navigation */
 
 .nav-list {
    color: var(--title-text-color);
@@ -57,17 +68,10 @@ li {
    color: var(--accent-color);
 }
 
-.nav-list.active,
-.nav-list.active {
+.nav-list.current {
    color: var(--accent-color);
 }
 
-
-body {
-   font-family: 'Roboto', sans-serif;
-   color: var(--primary-text-color);
-   background-color: var(--white-color);
-}
 
 .nav-contacts {
    color: var(--primary-text-color);
@@ -81,6 +85,8 @@ body {
 .nav-contacts:focus {
    color: var(--accent-color);
 }
+
+/* HERO */
 
 .hero-section {
    background-color: var(--dark-bg-color);
@@ -126,6 +132,8 @@ body {
    background: var(--button-focus);
 }
 
+/* < !-- Особливості --> */
+
 .visually-hidden {
    position: absolute;
    white-space: nowrap;
@@ -163,6 +171,8 @@ body {
    letter-spacing: 0.03em;
 }
 
+/* Наша команда */
+
 .team-section {
    background-color: var(--secondary-bg-color);
 }
@@ -184,6 +194,8 @@ body {
    line-height: 1.18;
    letter-spacing: 0.03em;
 }
+
+/* Футер */
 
 .footer-section {
    background-color: var(--dark-bg-color);
@@ -213,6 +225,8 @@ body {
 .footer-list:hover, .footer-list:focus {
    color: var(--accent-color);
 }
+
+/* Portfolio */
 
 .portfolio-buttons {
    font-family: inherit;
